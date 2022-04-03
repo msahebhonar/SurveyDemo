@@ -54,14 +54,3 @@ GO
 INSERT INTO	dbo.Respondents(SurveyDetailId,UserAccountId,SendTime,SubmitTime) VALUES('2C343747-EF7D-486F-9BE7-0869FDC726DB', '5251B836-603B-4213-891B-2D798E9B1A73', GETDATE(), NULL)
 INSERT INTO	dbo.Respondents(SurveyDetailId,UserAccountId,SendTime,SubmitTime) VALUES('2C343747-EF7D-486F-9BE7-0869FDC726DB', 'C78404D5-B7C8-4D81-8321-64459F9ED86F', GETDATE(), NULL)
 GO	
-
-SELECT * FROM dbo.QuestionBank AS qb
-SELECT * FROM dbo.Responses AS r
-SELECT * FROM dbo.SurveyDetails AS sd
-SELECT * FROM dbo.SurveyDetailQuestions AS sq
-
-SELECT * FROM UserAccounts
-SELECT * FROM dbo.Respondents AS r
-SELECT * FROM dbo.RespondentAnswers AS ra
-
-truncate table dbo.RespondentAnswers 
