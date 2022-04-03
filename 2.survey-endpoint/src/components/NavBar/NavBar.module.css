@@ -1,0 +1,19 @@
+.btn-survey{
+    border-color: rgb(255, 255, 255) !important;
+    color:rgb(255, 255, 255) !important;
+}
+
+.btn-survey:hover,
+.btn-survey:focus{
+    color: rgb(0, 191, 111) !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-color: rgb(0, 191, 111) !important;
+}
+
+.survey-brand{
+    color:rgb(255, 255, 255) !important;
+}
+
+.bg-survey{
+    background-color: rgb(0, 191, 111) !important;
+}
